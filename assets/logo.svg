@@ -1,35 +1,38 @@
 <svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="88" y1="72" x2="420" y2="448" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1220"/>
-      <stop offset="1" stop-color="#101827"/>
+    <linearGradient id="bg" x1="84" y1="64" x2="428" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#0A111B"/>
     </linearGradient>
-    <linearGradient id="metal" x1="160" y1="110" x2="360" y2="390" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#60A5FA"/>
-      <stop offset="0.55" stop-color="#2563EB"/>
-      <stop offset="1" stop-color="#1D4ED8"/>
+    <linearGradient id="panel" x1="140" y1="120" x2="372" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#243B5F"/>
+      <stop offset="0.5" stop-color="#193153"/>
+      <stop offset="1" stop-color="#0F223D"/>
     </linearGradient>
-    <linearGradient id="glow" x1="214" y1="160" x2="334" y2="344" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#BFDBFE" stop-opacity="0.97"/>
-      <stop offset="1" stop-color="#93C5FD" stop-opacity="0.8"/>
+    <linearGradient id="glyph" x1="154" y1="150" x2="356" y2="352" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCEBFF"/>
+      <stop offset="0.4" stop-color="#A7C8FF"/>
+      <stop offset="1" stop-color="#66A6FF"/>
     </linearGradient>
   </defs>
 
-  <rect x="32" y="32" width="448" height="448" rx="120" fill="url(#bg)"/>
-  <rect x="64" y="64" width="384" height="384" rx="90" fill="#0F172A" stroke="#1E293B" stroke-width="3"/>
+  <rect x="36" y="36" width="440" height="440" rx="110" fill="url(#bg)"/>
+  <rect x="86" y="86" width="340" height="340" rx="82" fill="#0F172A" stroke="#1E2A3A" stroke-width="3"/>
+  <rect x="112" y="112" width="288" height="288" rx="68" fill="url(#panel)" stroke="#2B3C52" stroke-width="2"/>
 
-  <path d="M256 114L351 162V246C351 315.5 311.5 370.2 256 398C200.5 370.2 161 315.5 161 246V162L256 114Z" fill="url(#metal)"/>
-  <path d="M256 142L328 178V246C328 298.1 296.7 344.4 256 367C215.3 344.4 184 298.1 184 246V178L256 142Z" fill="#0B1120" fill-opacity="0.2"/>
+  <path d="M174 196C174 168.386 196.386 146 224 146H288C315.614 146 338 168.386 338 196V212H174V196Z" fill="url(#glyph)" fill-opacity="0.22"/>
 
-  <path d="M196 242L256 195L317 242V281L256 327L196 281V242Z" fill="url(#glow)" fill-opacity="0.8"/>
-  <path d="M256 195V327" stroke="#E0F2FE" stroke-width="14" stroke-linecap="round"/>
-  <path d="M196 242L256 281L317 242" stroke="#E0F2FE" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M196 281L256 242L317 281" stroke="#E0F2FE" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <path d="M205 209V185C205 163.461 222.461 146 244 146H268C289.539 146 307 163.461 307 185V209" stroke="url(#glyph)" stroke-width="16" stroke-linecap="round"/>
 
-  <circle cx="256" cy="96" r="18" fill="#93C5FD" fill-opacity="0.9"/>
-  <circle cx="358" cy="168" r="14" fill="#60A5FA" fill-opacity="0.75"/>
-  <circle cx="166" cy="168" r="14" fill="#60A5FA" fill-opacity="0.75"/>
-  <circle cx="356" cy="346" r="12" fill="#60A5FA" fill-opacity="0.65"/>
-  <circle cx="154" cy="346" r="12" fill="#60A5FA" fill-opacity="0.65"/>
+  <path d="M180 214H332V286C332 328.526 296.526 364 254 364H258C215.474 364 180 328.526 180 286V214Z" fill="url(#glyph)" fill-opacity="0.92"/>
+
+  <path d="M256 228V320" stroke="#EAF4FF" stroke-width="16" stroke-linecap="round"/>
+  <path d="M220 286L256 250L292 286" stroke="#EAF4FF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M220 306L256 270L292 306" stroke="#EAF4FF" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" opacity="0.86"/>
+
+  <circle cx="256" cy="118" r="12" fill="#7EB8FF" fill-opacity="0.95"/>
+  <circle cx="354" cy="176" r="10" fill="#7EB8FF" fill-opacity="0.75"/>
+  <circle cx="160" cy="176" r="10" fill="#7EB8FF" fill-opacity="0.75"/>
+  <circle cx="354" cy="350" r="10" fill="#7EB8FF" fill-opacity="0.7"/>
+  <circle cx="160" cy="350" r="10" fill="#7EB8FF" fill-opacity="0.7"/>
 </svg>
-
