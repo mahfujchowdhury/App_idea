@@ -20,7 +20,9 @@ Vault Signer is a browser-based wallet interface designed to keep keys and signi
 ## App preview
 
 <p align="center">
-  <img src="assets/app-preview.svg" alt="Vault Signer app preview" width="900" />
+  <img src="Screenshot 2026-11-02 205505.png" alt="Welcome Screen" width="280" />
+  <img src="Screenshot 2026-11-02 205421.png" alt="Select Network" width="280" />
+  <img src="Screenshot 2026-11-02 205443.png" alt="Wallet Dashboard" width="280" />
 </p>
 
 ## Features
@@ -61,4 +63,3 @@ This project is designed for air-gapped workflows: private keys and seed phrases
 ## Example logo
 
 The project logo in this README is a custom SVG included in the repository at `assets/logo.svg`.
-
